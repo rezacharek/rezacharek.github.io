@@ -1,0 +1,39 @@
+body {
+    position: relative;
+}
+
+#all {  
+    position: absolute;
+    top: 50%;
+    left: 33%;
+    /* margin: -25px 0 0 -25px; Apply negative top and left margins to truly center the element */
+      
+}
+
+#container {
+    /* width: 500px;
+    height: 500px; */
+    border: 1px solid black;
+    display: grid;
+    background-color: white;
+}
+
+.boxy_one {
+    color: black;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxy_zero {
+    color: black;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-size: 15px;
+}
