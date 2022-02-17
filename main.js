@@ -89,7 +89,7 @@ function getText() {
     console.log(input);
     for(let i = 0; i < input.length; i++)
     {   if (input[i] != "") {
-            array.push(input[i]);
+            array.push(input[i].replaceAll("\"",''));
         }
     }
     return array;
