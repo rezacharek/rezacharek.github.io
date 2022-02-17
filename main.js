@@ -36,7 +36,7 @@ function generate(){
         new_box = document.createElement("div");
         new_box.style.setProperty("border", "1px solid black");
         var color = getColor(array[i]);
-        new_box.innerHTML = `<p>${array[i]}</p>`;
+        new_box.innerHTML = `<p>` + array[i] + `</p>`;
         new_box.style.setProperty("background-color", color);
         new_box.style.setProperty("color", "black");
         new_box.style.setProperty("display", "flex");
@@ -89,7 +89,7 @@ function getText() {
     console.log(input);
     for(let i = 0; i < input.length; i++)
     {   if (input[i] != "") {
-            array.push(parseInt(input[i]));
+            array.push(input[i]);
         }
     }
     return array;
