@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;600&display=swap');
+body {
+    position: relative;
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+}
+
+
+
+#nft {
+    width: 300px;
+    height: 300px;
+    padding: 25px;
+    border-radius: 10%;
+    object-fit: cover;
+    /* background-color: linear-gradient(to top, #3204fdba, #9907facc) */
+}
+
+#main_card {
+    background-color: hsl(216, 50%, 16%);
+    width: 350px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    border-radius: 9px;
+}
+
+#equi {
+    color: white;
+    padding-left: 25px;
+    font-weight: 600;
+    font-size: 21px;
+}
+
+#equi:hover {
+    color: cyan;
+}
+
+#descrip {
+    padding-top: 17px;
+    color: hsl(215, 51%, 70%);
+    padding-left: 25px;
+    font-weight: 200;
+}
+
+#numbers {
+    color: white;
+    font-weight: 400;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#author {
+    padding-left: 25px;
+}
+
+#avatar {
+    width: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+    font-weight: 200;
+}
+
+#ETH {
+    color: hsl(178, 100%, 50%);
+    font-weight: 400;
+}
+
+#ETH_icon {
+    padding-right: 5px;
+}
+
+#clock {
+    padding-right: 5px;
+}
+
+#left_days {
+    color:hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+
+#line {
+    border: 0;
+    height: 1px;
+    background: hsl(215, 51%, 70%);
+    width: 300px;
+}
+
+#author {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 16px;
+}
+
+#other:hover {
+    color: cyan;
+}
